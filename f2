@@ -2,4 +2,8 @@
 hi 
 hello
 yum dkjql
+yum install docker -y
+systemctl start docker
+yum install kubeadm kubectl kubelet -y
+systemctl start kubeadm kubectl kubelet
 
